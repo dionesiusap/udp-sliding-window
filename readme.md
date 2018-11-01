@@ -1,5 +1,6 @@
 # SLIDING WINDOW ALGORITHM
-![Semver](http://img.shields.io/SemVer/0.1.0.png)
+![Semver](http://img.shields.io/SemVer/0.1.0.png)  
+
 Transfers data over UDP protocol using Sliding Window Algorithm implemented in C++.
 
 ## Brief Description
