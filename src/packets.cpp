@@ -21,7 +21,7 @@ FramePacket* CreateFramePacket(unsigned int SequenceNumber, unsigned int DataLen
 
     packet->SOH = DEFAULT_SOH;
     packet->SequenceNumber = SequenceNumber;
-    memcpy(packet->Data, Data, sizeof(Data));
+    memcpy(packet->Data, Data, DataLength * sizeof(Data));
     packet->Checksum = Checksum;
 
     return packet;
